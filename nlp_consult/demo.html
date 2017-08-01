@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script>
+            function plus(){ 
+                a = document.getElementById("a").value;
+                b = document.getElementById("b").value;
+                c = parseInt(a) + parseInt(b);
+                document.getElementById("d").value = c;
+            }
+    </script>
+</head>
+    <body>
+        <div>
+            input a:
+            <br/>
+            <input type="text" id="a">
+            <br/>
+            input b:
+            <br/>
+            <input type="text" id="b">
+            <br/>
+            <button onclick="plus()">Click me</button>
+            <input type="text" id="d">
+        </div>
+    </body>
+</html>
